@@ -4,7 +4,7 @@
 
 Given a colletion of Posts that have and belong to many Categories:
 Create a page that displays each category and the first 4 Posts in that category
-*without* any duplicates.  Only show Posts with a published_at date >= `now`
+*without* any duplicates.  Only show Posts with a published_at date <= `now`
 
 This is a simplified version of a real problem we've solved
 ![](http://atmedia.imgix.net/e205142a5c2298026f587ac316661f9c97748538?auto=compress&w=800.0&fit=max)
