@@ -14,6 +14,20 @@
 
 @import "bootstrap";
 
+.category-title {
+  color: brown;
+  font-size: x-large;
+}
+
 .category-row {
   margin-bottom: 5px;
+}
+
+.post-title {
+  font-style: italic;
+  font-size: large;
+}
+
+.post-body {
+  font-size: smaller;
 }
