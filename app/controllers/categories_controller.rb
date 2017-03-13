@@ -1,5 +1,5 @@
 class CategoriesController < ApplicationController
   def index
-    @categories = Category.with_uniq_ready_posts
+    @categories = Category.with_display_posts
   end
 end
