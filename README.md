@@ -1,13 +1,17 @@
-# README
+# Ruby Problem - interactors.rb
 
-# Unconflicted
+Assume you're working with a codebase that has a bunch of interactor-like classes.
+Those classes have an API much like a Proc.
+In this magical realm our `call` methods are pure functions. Design a library
+or patch that will allow us to memoize calls to `call`
+
+# Rails/Postgres Problem
 
 Given a colletion of Posts that have and belong to many Categories:
 Create a page that displays each category and the first 4 Posts in that category
 *without* any duplicates.  Only show Posts with a published_at date <= `now`
 
 This is a simplified version of a real problem we've solved
-![](http://atmedia.imgix.net/e205142a5c2298026f587ac316661f9c97748538?auto=compress&w=800.0&fit=max)
 
 We don't expect your version to be this pretty, just plain hypertext is fine
 
